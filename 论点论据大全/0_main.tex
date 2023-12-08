@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+
+\usepackage{EngReport}
+\usepackage{ctex}
+\usepackage{hyperref}
+\graphicspath{{Images/}}
+\bibliography{Sources}
+\onehalfspacing
+\graphicspath{{images/}}
+\geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
+
+%\fontsize{font size}{vertsize (usually 1.2x)}\selectfont
+
+\begin{document}
+\renewcommand{\familydefault}{\rmdefault}
+
+\input{titlepage}
+\input{headerfooter}
+\tableofcontents
+\pagebreak
+
+% % % % % % % % % % % % % % % % % % %
+% % % % %  SAMPLE IMAGE   % % % % % %
+% % % % % % % % % % % % % % % % % % %
+
+
+
+% % % % % % % % % % % % % % % % % % % % %
+% % % % %  SAMPLE EQUATIONS   % % % % % %
+% % % % % % % % % % % % % % % % % % % % %
+
+
+\pagebreak
+
+% % % % % % % % % % % % % % % % % % % %
+% % % % %  REPORT CONTENT   % % % % % %
+% % % % % % % % % % % % % % % % % % % %
+
+\fontsize{12}{20}\selectfont{
+
+\input{1_ section 1}
+\input{2_ section 2}
+\input{3_ section 3}
+\input{4_ section 4}
+
+}
+
+\printbibliography
+
+\end{document}
